@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import ExcelFileDropzone from "./components/ExcelDropzone";
 import Question from "./components/Question";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://unstop-talent-park-prototype.onrender.com/");
 
 function App() {
   //Room State
