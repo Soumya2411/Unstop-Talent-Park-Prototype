@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://unstop-talent-park-prototype.vercel.app/",
+    origin: true,
     methods: ["GET", "POST"],
   },
 });
